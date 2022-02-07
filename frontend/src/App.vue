@@ -91,7 +91,7 @@ export default {
     async deleteStudent(student) {
       await this.getStudents()
 
-      await fetch(`http://localhost:8000/api/students/${student.id}/`, {
+      await fetch(`https://app-easyapp.herokuapp.com/api/students/${student.id}/`, {
         method: 'delete',
         headers: {
           'Content-Type': 'application/json',
