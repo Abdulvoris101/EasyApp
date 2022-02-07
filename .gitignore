@@ -1,2 +1,6 @@
 venv/
 .browserslistrc
+frontend/
+frontend
+src/
+assets/
