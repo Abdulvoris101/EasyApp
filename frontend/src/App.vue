@@ -50,7 +50,7 @@ export default {
   },
   methods: {
     async getStudents() {
-      var response = await fetch('http://localhost:8000/api/students/')
+      var response = await fetch('https://app-easyapp.herokuapp.com/api/students/')
       this.students = await response.json()
     },
     submitForm () {
@@ -63,7 +63,7 @@ export default {
     async createStudent() {
       await this.getStudents()
 
-      await fetch('http://localhost:8000/api/students/', {
+      await fetch('https://app-easyapp.herokuapp.com/api/students/', {
         method: 'post',
         headers: {
           'Content-Type': 'application/json',
@@ -76,7 +76,7 @@ export default {
     async editStudent() {
       await this.getStudents()
 
-      await fetch(`http://localhost:8000/api/students/${this.student.id}/`, {
+      await fetch(`https://app-easyapp.herokuapp.com/api/students/${this.student.id}/`, {
         method: 'put',
         headers: {
           'Content-Type': 'application/json',
