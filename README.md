@@ -1,7 +1,7 @@
 # EasyApp
-`EasyApp` - Bu proyect-da Django Rest Framework va Vue js ishlatilingan bu proyect boshlovchilar uchun juda xam mos keladi
+`EasyApp` - This project uses Django Rest Framework and Vue js and is very suitable for beginners.
 
-Bu proyectda Asosan CRUD uchun yasalgan Django dan model ni DRF orqali json ga o'tqilinilangan va Vue js da esa fetch funksiyasi orqali GET, POST, PUT, DELETE metodlaridan foydalanilgan
+In this project, the model from Django, which was created mainly for CRUD, was transferred to json via DRF, and in Vue js, using GET, POST, PUT, DELETE methods using the fetch function
 
 ![image](https://user-images.githubusercontent.com/79411900/152689980-7a6178e6-e666-47c9-83b5-9fc86c403c43.png)
 
