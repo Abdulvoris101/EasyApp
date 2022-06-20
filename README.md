@@ -6,4 +6,4 @@ In this project, the model from Django, which was created mainly for CRUD, was t
 ![image](https://user-images.githubusercontent.com/79411900/152689980-7a6178e6-e666-47c9-83b5-9fc86c403c43.png)
 
 # Demo
-`link` - [Saytni ko'rish](https://easyapp-vue.netlify.app/)
+`link` - [Demo Version](https://easyapp-vue.netlify.app/)
